@@ -8,3 +8,6 @@ Your credentials will be encrypted and saved in the script settings.
 
 Now anytime the TestOut login page is loaded in the browser, the script will execute and log you in eith your saved credentials. 
 The script will also automatically click on the TestOut PC Pro link to continue that course. 
+
+v1.1 Update:
+Script will now detect when a course video is being played, and will move to the next section in the course once the video is done playing automatically!
