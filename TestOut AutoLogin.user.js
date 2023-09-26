@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Automatically logs into testout on detecting the login page
 // @author       Dainen Dunn
-// @match        https://labsimapp.testout.com/v6_0_555/index.html
+// @match        https://labsimapp.testout.com/v6_0_571/index.html
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=testout.com
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
 // @require      http://crypto.stanford.edu/sjcl/sjcl.js
@@ -160,7 +160,7 @@
         usr = decodeOrPrompt (usr, "TestOut Username", "lognUsr");
         pword = decodeOrPrompt (pword, "TestOut Password", "lognPwd");
 
-        if (window.location.href == "https://w3.testout.com/login-sliders?culture=en-us" || window.location.href == "https://labsimapp.testout.com/v6_0_555/index.html")
+        if (window.location.href == "https://w3.testout.com/login-sliders?culture=en-us" || window.location.href == "https://labsimapp.testout.com/v6_0_571/index.html")
         {
             console.log("Am on Testout login page");
 
